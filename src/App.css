@@ -36,3 +36,20 @@
     transform: rotate(360deg);
   }
 }
+
+.form-control:focus {
+  border-color: #f09789 !important;
+  box-shadow: 0 0 0 0.1rem #f09789 !important;
+}
+
+.form-check-input:checked[type=checkbox] {
+  background-color: #f09789;
+  color: #f09789;
+  border-color: #f09789;
+}
+
+.form-control {
+  flex: 1 !important;
+  margin-left: 10px;
+}
+
